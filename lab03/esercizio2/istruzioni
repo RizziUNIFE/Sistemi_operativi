@@ -1,0 +1,18 @@
+ESERCIZIO 2 — cercaFile stringa dir num
+
+Prova consigliata:
+  ./cercaFile.sh errore "$(pwd)/test_esercizio2/sorgente" 2
+
+RISULTATO ATTESO:
+  La directory con più file .txt validi è:
+  <percorso-assoluto>/sorgente/gamma
+
+Conteggi (per singola directory, NON includendo le sottodirectory):
+  sorgente        1
+  sorgente/alfa   2
+  sorgente/alfa/sotto 1
+  sorgente/beta   1
+  sorgente/beta/sotto 1
+  sorgente/gamma  4   <-- vincitrice
+  sorgente/gamma/sotto 1
+  sorgente/vuota  0
